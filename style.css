@@ -1,5 +1,5 @@
 :root {
-    --branco-principal: #FFFFFF;
+    --branco-principal: #000000;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
@@ -18,11 +18,14 @@ body {
     margin: 0;
     padding: 0;
 }
-
-.principal {
-    background-image: url("img/Background.png");
+body 
+{
+      background-image: url("Background.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain;  
+}
+.principal {
+
     grid-template-columns: 50% 50%;
 }
 
@@ -49,3 +52,4 @@ body {
     font-size: 12px;
     color: var(--cinza-secundario);
 }
+
